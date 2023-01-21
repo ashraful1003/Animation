@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        /// for fide in animation
         fadein.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -55,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        /// for fide out animation
         fadeout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -63,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        /// for zoom in animation
         zoomin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -71,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        /// for zoom out animation
         zoomout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -79,6 +83,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        /// for clockwise animation
         clockwise.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -87,6 +92,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        /// for anti clockwise animation
         antiClockwise.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
